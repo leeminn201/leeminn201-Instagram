@@ -1,0 +1,14 @@
+.navkey {
+    width: 100px;
+    height: 50px;
+    display: inline;
+    float: left;
+    margin: 19px -15px 10px 0px;
+    &.home {
+        margin-left: 50px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}

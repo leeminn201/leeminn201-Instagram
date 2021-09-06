@@ -1,0 +1,21 @@
+@import '../../../setting';
+
+.infor{
+    width: 400px;
+    height: fit-content;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: fixed;
+    h1 {
+        color: $mustard;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    span {font-size: 21px;
+        margin: 0px 10px 0px 10px;
+    }
+}
