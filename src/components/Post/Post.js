@@ -1,19 +1,21 @@
 import React from 'react';
 import "./Post.scss";
-import postPhoto from "../../Media/LM2.jpg";
-import heart from "../../Media/heart2.png";
-import cmt from "../../Media/instagram-comment.png"
-function Post() {
+
+import { mapOrder } from 'components/utilities/sorts';
+import Picture from 'components/picture/Picture';
+import PostInfo from 'components/PostInfo/PostInfo';
+function Post(props) {
+    const {post} = props
+    const picture = mapOrder(post.picture, post.picOrder, 'id')
     return (
         <div class="post">
-            <img src={postPhoto} className="postPhoto" alt="post"></img>
-            <div className="postInfo">
-                <button><img src={heart} id="heart" alt=""></img></button>
-                <button><img src={cmt} id="cmt" alt=""></img></button>
-                <p className="postTime">"05/09/2021"</p><br/>
-                <p className="postContent"><span className="postAuthor">leeminn201</span> This is my first post.</p>
-                <input type="text" placeholder="Comment..."></input>
+            <div className="photo">
+                {picture.map((picture, index) => <Picture key={index} picture={picture}/>)}
             </div>
+            <div className="postInfo">
+                <PostInfo date={post.date} content={post.content}/>)
+            </div>
+            
         </div>
     )
 }
