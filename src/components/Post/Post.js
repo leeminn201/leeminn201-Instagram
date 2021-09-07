@@ -6,7 +6,10 @@ import cmt from "../../Media/instagram-comment.png"
 function Post() {
     return (
         <div class="post">
-            <img src={postPhoto} className="postPhoto" alt="post"></img>
+            <div className="photo">
+                <img src={postPhoto} className="postPhoto" alt="post"></img>
+                <img src={postPhoto} className="postPhoto" alt="post"></img>
+            </div>
             <div className="postInfo">
                 <button><img src={heart} id="heart" alt=""></img></button>
                 <button><img src={cmt} id="cmt" alt=""></img></button>
