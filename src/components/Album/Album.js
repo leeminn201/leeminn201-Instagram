@@ -24,7 +24,7 @@ function Album() {
         }
 
     return (
-        <div class="album">
+        <div className="album">
             {post.map((post, index) => <Post key={index} post = {post}/>)}
             {/* <Post />
             <Post />

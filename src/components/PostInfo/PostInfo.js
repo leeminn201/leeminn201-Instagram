@@ -12,7 +12,7 @@ function PostInfo(props) {
       <button>
         <img src={cmt} id="cmt" alt=""></img>
       </button>
-      <p className="postTime">{props.date}</p>
+      <p className="postTime">{props.date}</p>  
       <br />
       <p className="postContent">
         <span className="postAuthor">leeminn201</span>
@@ -20,7 +20,7 @@ function PostInfo(props) {
       </p>
       <input type="text" placeholder="Comment..."></input>
     </div>
-  );
+  )
 }
 
 export default PostInfo;
