@@ -3,6 +3,7 @@
 .container-slide {
     width: 790px;
     height: $maxheightPic;
+    position: relative;
 
     .displaySlide {
         height: $maxheightPic;
@@ -77,4 +78,26 @@
             pointer-events: none;
         }
     }
+
+    .dots {
+        @include marcen();
+        position: absolute;
+        display: flex;
+        z-index: 9;
+        top: 380px;
+        left: 369px;
+        opacity: 0.9;
+        .dot {
+            width: 13px;
+            height: 13px;
+            border-radius: 50%;
+            border: 2px solid $white;
+            background: $white;
+            margin: 5px;
+            cursor: pointer;
+            &.active {
+                background: rgb(0, 0, 0);
+              }
+          }
+      }
 }
