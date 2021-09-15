@@ -7,7 +7,7 @@
     left: 50%;
     transform: translate(-50%, 0);
     font-size: 23px; 
-    background-color: black;
+    background-color: $black;
 
     #logo {
         width: 190px; 
@@ -25,7 +25,6 @@
 
         img {
             display: inline-block;
-            // float: left;
             z-index: 9;
             position: fixed;
         }

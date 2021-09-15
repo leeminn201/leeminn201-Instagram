@@ -2,16 +2,15 @@
 
 .container-slide {
     width: 790px;
-    height: 414px;
+    height: $maxheightPic;
 
     .displaySlide {
-        height: 414px;
+        height: $maxheightPic;
 
         img {
-            height: 414px;
+            height: $maxheightPic;
             width: auto;
-            margin-left: auto;
-            margin-right: auto;
+            @include marcen();
             z-index: 1;
         }
     }

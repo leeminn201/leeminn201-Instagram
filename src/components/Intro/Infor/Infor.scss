@@ -3,11 +3,10 @@
 .infor{
     width: 400px;
     height: fit-content;
-    color: white;
+    color: $white;
     font-size: 30px;
     font-weight: 900;
-    margin-left: auto;
-    margin-right: auto;
+    @include marcen();
     margin-top: 0;
     position: fixed;
     h1 {
