@@ -1,19 +1,22 @@
-.photo {
-    width: 790px;
-    height: 414px;
-    position: relative;
-    display: flex;
-    overflow-x: scroll;
-    overflow-y: none;
-    
-    &::-webkit-scrollbar {
-        display: none;
-    }
-}
+// @import '../../../setting';
 
-img.postPhoto {
-    max-height: 414px;
-    width: auto;
-    margin-left: 85px;
-    margin-right: 85px;    
-}
+
+// .photo {
+//     width: 790px;
+//     height: $maxheightPic;
+//     position: relative;
+//     display: flex;
+//     overflow-x: scroll;
+//     overflow-y: none;
+    
+//     &::-webkit-scrollbar {
+//         display: none;
+//     }
+// }
+
+// img.postPhoto {
+//     max-height: $maxheightPic;
+//     width: auto;
+//     margin-left: 85px;
+//     margin-right: 85px;    
+// }

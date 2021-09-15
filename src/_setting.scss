@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600');
 
-$skyblue: #45FFFF;
+//Color
 $mustard: #F8B300;
+$white: white;
+$black: black;
+//Align center
+@mixin marcen {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+//Size
+$maxheightPic: 414px;
+
 $scree-lg: 1201px;
 $scree-md: 992px;
 $scree-sm: 768px;
