@@ -4,7 +4,7 @@ import Hearticon from './Icon/HeartIcon';
 import AvaSignin from './Icon/AvaSignin';
 function MenuIcon() {
     return (
-        <div>
+        <div className="menuicon">
             <Messicon/>
             <Hearticon />
             <AvaSignin />

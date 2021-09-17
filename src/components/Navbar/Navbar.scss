@@ -1,43 +1,49 @@
 @import '../../_setting.scss';
+// @import '../../Media/searchbtn.png';
 
 .navbar {
     width: 1200px;
     height: 70px;
     position: fixed;
-    left: 50%;
-    transform: translate(-50%, 0);
-    font-size: 23px; 
+    z-index: 9;
+    font-size: 21px; 
     background-color: $black;
+    display: flex;
+
 
     #logo {
-        width: 190px; 
-        height: 50px;
-        float: left;
-        padding-top: 7px;
-        padding-left: 30px;
-        display: inline;
+        width: 171px; 
+        height: 45px;
+        padding-top: 10px;
+        padding-left: 20px;
     }
 
     .search-bar{
-        display: inline;
-        margin: 11px 0px 0px 20px;
-        float: left;
-
-        img {
-            display: inline-block;
-            z-index: 9;
-            position: fixed;
-        }
-            
+        margin: 20px 0px 0px 50px;
         input {
-            width: 300px;
-            height: 45px;
-            display: inline;
-            padding-left: 45px;
+            width: 270px;
+            height: 30px;
+            padding-left: 40px;
             border: none;
             border-radius: 50px;
             outline: none;
-            position: relative;
+            position: absolute;
+        }
+        
+        button {
+            padding: 0;
+            
+            border: none;
+            background: none;
+            position: absolute;
+            z-index: 10;
+            
+            cursor: pointer;
+            img {
+                margin: 1px 0px 0px 3px;
+                z-index: 10;
+                
+            }
         }
     }
   }

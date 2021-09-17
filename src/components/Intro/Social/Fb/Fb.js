@@ -5,7 +5,7 @@ function Fb() {
     return (
         <div className="fb">
             <img src={fb} className="socialicon" alt="fb"></img>
-            <a href="https://www.facebook.com/jmace201/">https://www.facebook.com/jmace201/</a>
+            <a href="https://www.facebook.com/jmace201/" target="_blank" rel="noopener noreferrer">https://www.facebook.com/jmace201/</a>
            
         </div>
     )
