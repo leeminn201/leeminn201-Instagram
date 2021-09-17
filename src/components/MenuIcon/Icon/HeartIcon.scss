@@ -1,12 +1,11 @@
 @import '../../../setting';
 
 .hearticon {
-    width: 31px;
-    height: 31px;
+    width: 31.5px;
+    height: 31.5px;
     fill: $white;
-    display: inline;
-    float: left;
-    margin: 18.5px 10px 0px 5px;
+    position: absolute;
+    margin: 19px 10px 0px 437px;
 
     svg#Layer_1 {
         fill: $white;

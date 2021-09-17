@@ -5,7 +5,7 @@ function Github() {
     return (
         <div className="github">
             <img src={github} className="socialicon" id="github" alt="github"></img>
-            <a href="https://github.com/leeminn201" id="github">https://github.com/leeminn201</a>
+            <a href="https://github.com/leeminn201" id="github" target="_blank" rel="noopener noreferrer">https://github.com/leeminn201</a>
            
         </div>
     )

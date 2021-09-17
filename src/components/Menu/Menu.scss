@@ -1,16 +1,67 @@
 @import '../../setting';
 
-.navkey {
-    width: 100px;
-    height: 50px;
-    display: inline;
-    float: left;
-    margin: 19px -15px 10px 0px;
-    &.home {
-        margin-left: 50px;
-    }
-    a {
-        color: $white;
-        text-decoration: none;
+
+.menu {
+    ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0 0 0 50px;
+        
+        height: 100%;
+        
+        li {
+            padding: 0px 15px;
+            
+            &.navkey {
+                height: 100%;
+                display: flex;
+                align-items: center;
+            }
+            a {   
+                align-items: center;
+                color: $white;
+                text-decoration: none;
+                &:visited {
+                    color: $white;
+                }
+                &:hover {
+                    color: $mustard;
+                }
+            }
+
+            &.navkey.about {
+                position: relative;
+                
+                &:hover .submenu{
+                    display: block;
+                    list-style-type: none;
+                }
+
+                ul.submenu { 
+                    display: none;
+                    padding: 0;
+                    position: absolute;
+                    height: auto;
+                    left: 0;
+                    top: 100%;
+                    margin: 0;
+                    text-align: left;
+                    background-color: black;
+
+                    li {
+                        background-color: rgba(0, 0, 0, 0.75);
+                        padding: 10px 15px;
+                        border-top: solid 1px white;
+                    }
+                }
+            }
+            
+    
+        }
     }
 }
+
+
+
+

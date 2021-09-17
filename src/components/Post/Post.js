@@ -1,13 +1,13 @@
 import React from 'react';
 import "./Post.scss";
 
-import { mapOrder } from 'components/utilities/sorts';
+// import { mapOrder } from 'components/utilities/sorts';
 // import Picture from 'components/Picture/Picture';
 import PostInfo from 'components/PostInfo/PostInfo';
 import Slider from 'components/Slider/Slider';
 function Post(props) {
     const {post} = props
-    const picture = mapOrder(post.picture, post.picOrder, 'id')
+    // const picture = mapOrder(post.picture, post.picOrder, 'id')
 
     return (
         <div className="post">

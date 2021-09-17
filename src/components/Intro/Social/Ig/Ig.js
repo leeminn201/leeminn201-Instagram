@@ -5,7 +5,7 @@ function Ig() {
     return (
         <div className="ig">
             <img src={ig} className="socialicon" alt="ig"></img>
-            <a href="https://www.instagram.com/jwmace201/">@jwmace201</a>
+            <a href="https://www.instagram.com/jwmace201/" target="_blank" rel="noopener noreferrer">@jwmace201</a>
            
         </div>
     )
