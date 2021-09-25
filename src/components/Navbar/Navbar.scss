@@ -19,7 +19,12 @@
     }
 
     .search-bar{
+        width: 312px;
         margin: 20px 0px 0px 50px;
+        // width: auto;
+        display: flex;
+        // background-color: blue;
+        
         input {
             width: 270px;
             height: 30px;

@@ -7,17 +7,12 @@ import Fb from './Fb/Fb';
 import Ig from './Ig/Ig';
 function Social() {
     return (
-        <div className="social">
-            <table>
-                
+        <div className="social">  
                 <Linkedin />
                 <Fb />
                 <Github/>
                 <Gmail />
                 <Ig />
-                
-                
-            </table>
         </div>
     )
 }

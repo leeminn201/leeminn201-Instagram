@@ -1,5 +1,101 @@
+@import '../../setting';
+
 .menuicon {
-    width: auto;
     display: flex;
-    position: relative;
+    align-items: center;
+    // background-color: blue;
+
+    .messicon {
+        width: 33px;
+        height: 33px;
+        fill: $white;
+        margin-left: 90px;
+
+        svg#Layer_1 {
+            fill: $white;
+        }
+    }
+
+    .hearticon {
+        width: 31px;
+        height: 31px;
+        fill: $white;
+        margin-left: 30px;
+
+        svg#Layer_1 {
+            fill: $white;
+        }
+    }
+
+    .avasignin {
+        display: flex;
+        background: none;
+        margin-left: 30px;
+        height: 100%;
+        align-items: center;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+
+            .sig {
+                position: relative;
+                height: 42px;
+                padding: 14px 0px;
+
+                button {
+                    display: flex;
+                    color: $white;
+                    height: 42px;
+                    align-items: center;
+                    background: none;
+                    border: none;
+                    border-radius: 150px;
+                    cursor: pointer;
+
+                    img {
+                        height: 42px;
+                        width: 42px;
+                        border-radius: 50%;
+                    }
+
+                    span {
+                        font-size: 19px;
+                        color: $white;
+                        margin-left: 10px;
+                    }
+                }
+
+                &:hover .submenu {
+                    color: $white;
+                    display: block;
+                    list-style-type: none;
+                }
+
+                ul.submenu {
+                    display: none;
+                    position: absolute;
+                    color: $white;
+                    margin: 14px 0px 0px 0px;
+
+                    li {
+                        background-color: rgba(0, 0, 0, 0.75);
+                        background-color: $black;
+                        width: 100%;
+                        padding: 0px auto;
+                        border-top: solid 1px white;
+                        cursor: pointer;
+
+                        button {
+                            margin: auto;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

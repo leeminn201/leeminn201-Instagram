@@ -3,39 +3,38 @@
     font-size: 19px;
     color: black;
     background-color: white;
-    margin: 255px 5px 5px 5px;
-    float: left;
+    // margin: 255px 5px 5px 5px;  
+    display: flex;
 
-    img.socialicon {
-        width: 45px;
-        height: 45px;
-        margin: 5px 5px 0px 0px;
-        &#github {
-            width: 33px;
-            height: 33px;
-            margin: 7px 11px 0px 5px;
-        }
-    }
+    // img.socialicon {
+    //     width: 45px;
+    //     height: 45px;
+    //     margin: 5px 5px 0px 0px;
+    //     &#github {
+    //         width: 33px;
+    //         height: 33px;
+    //         margin: 7px 11px 0px 5px;
+    //     }
+    // }
     
-    a {
-        margin-top: 13px;
-        position: fixed;
-        color: black;
-        &#github {
-            margin-top: 11px;
-        }
+    // a {
+    //     position: fixed;
+    //     color: black;
+    //     &#github {
+    //         margin-top: 11px;
+    //     }
         
-    }
+    // }
 
-    .gmail {
-        margin-top: 5px;
-        height: 50px;
-    }
+    // .gmail {
+    //     margin-top: 5px;
+    //     height: 50px;
+    // }
     
-    .ig {
-        margin-top: 3px;
-        a {
-            margin-top: 10px;
-        }
-    }
+    // .ig {
+    //     margin-top: 3px;
+    //     a {
+
+    //     }
+    // }
 }
