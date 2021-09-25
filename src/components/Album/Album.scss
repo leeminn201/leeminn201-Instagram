@@ -1,6 +1,6 @@
 .album {
     width: calc(1200px - 410px);
-    height: 927px;
+    height: 895px;
     position: absolute;
     margin-top: 80px;
     overflow-x: none;
@@ -8,5 +8,4 @@
     &::-webkit-scrollbar {
         display: none;
     }
-    
 }
